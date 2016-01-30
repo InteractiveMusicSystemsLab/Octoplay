@@ -5,8 +5,6 @@ Project("{D7885244-D557-5495-91F3-78AA6667EDB5}") = "Octoplay Unity", "Assembly-
 EndProject
 Project("{D7885244-D557-5495-91F3-78AA6667EDB5}") = "Octoplay Unity", "Assembly-CSharp-Editor.csproj", "{7BA330D4-0281-209F-8B1F-7EC4CF600436}"
 EndProject
-Project("{D7885244-D557-5495-91F3-78AA6667EDB5}") = "Octoplay Unity", "Assembly-UnityScript.unityproj", "{A77572A9-35BA-459D-B467-501769594A3D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,10 +19,6 @@ Global
 		{7BA330D4-0281-209F-8B1F-7EC4CF600436}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BA330D4-0281-209F-8B1F-7EC4CF600436}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BA330D4-0281-209F-8B1F-7EC4CF600436}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A77572A9-35BA-459D-B467-501769594A3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A77572A9-35BA-459D-B467-501769594A3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A77572A9-35BA-459D-B467-501769594A3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A77572A9-35BA-459D-B467-501769594A3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -48,5 +42,4 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
-
 EndGlobal
