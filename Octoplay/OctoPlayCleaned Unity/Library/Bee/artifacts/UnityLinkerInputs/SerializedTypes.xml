@@ -1,0 +1,13 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="AudioCategory" preserve="nothing" serialized="true"/>
+		<type fullname="AudioController_CurrentInspectorSelection" preserve="nothing" serialized="true"/>
+		<type fullname="AudioItem" preserve="nothing" serialized="true"/>
+		<type fullname="AudioItem/LoopMode" preserve="nothing" serialized="true"/>
+		<type fullname="AudioSubItem" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="UnityEngine.IMGUIModule">
+		<type fullname="UnityEngine.GUISettings" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.GUIStyle" preserve="nothing" serialized="true"/>
+	</assembly>
+</linker>

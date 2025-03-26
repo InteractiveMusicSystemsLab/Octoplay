@@ -1,0 +1,259 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - AudioController
+    - AudioObject
+    - KeyInstruments
+    - PoolableObject
+    - animateOctopus
+    - focusCamera
+    - gameGUI
+    - globals
+    - octoplayGame
+    - playerData
+    - splashScreen
+    - userInput
+  serializedClasses:
+    Assembly-CSharp:
+    - AudioCategory
+    - AudioController_CurrentInspectorSelection
+    - AudioItem
+    - AudioItem/LoopMode
+    - AudioSubItem
+    UnityEngine.IMGUIModule:
+    - UnityEngine.GUISettings
+    - UnityEngine.GUIStyle
+  methodsToPreserve: []
+  sceneClasses:
+    Assets/Octoplay.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 111
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 626}
+    - Class: 114
+      Script: {instanceID: 1772}
+    - Class: 114
+      Script: {instanceID: 1804}
+    - Class: 114
+      Script: {instanceID: 1842}
+    - Class: 114
+      Script: {instanceID: 1860}
+    - Class: 114
+      Script: {instanceID: 1872}
+    - Class: 114
+      Script: {instanceID: 1874}
+    - Class: 114
+      Script: {instanceID: 1882}
+    - Class: 114
+      Script: {instanceID: 1892}
+    - Class: 114
+      Script: {instanceID: 1914}
+    - Class: 114
+      Script: {instanceID: 1918}
+    - Class: 114
+      Script: {instanceID: 1928}
+    - Class: 114
+      Script: {instanceID: 18620}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 122
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 154
+      Script: {instanceID: 0}
+    - Class: 156
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 198
+      Script: {instanceID: 0}
+    - Class: 199
+      Script: {instanceID: 0}
+    - Class: 218
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+    - Class: 1953259897
+      Script: {instanceID: 0}
+    Assets/splashScreen.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1784}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 124
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    - Class: 850595691
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: f31dd753227166741727d14a91080fa9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: octoplayGame
+  - hash:
+      serializedVersion: 2
+      Hash: d5a010776320493f52a43380eb6976f8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: demoOctopus
+  - hash:
+      serializedVersion: 2
+      Hash: a8691831c0b350a4e9c82b25d691b2d0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: splashScreen
+  - hash:
+      serializedVersion: 2
+      Hash: 7df3b777881d247ea06449e9720b45a5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: octoplay
+  - hash:
+      serializedVersion: 2
+      Hash: 266e82214b773f107230b4c0d06a5ac3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PoolableObject
+  - hash:
+      serializedVersion: 2
+      Hash: eab572abe0d5eccc6ba04934ffb086fc
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: KeyInstruments
+  - hash:
+      serializedVersion: 2
+      Hash: e5a8868fff56c12d85f37ec0cd8abdf9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: userInput
+  - hash:
+      serializedVersion: 2
+      Hash: dfd68f6449ed01b6a41da71c8f92c7fd
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AudioObject
+  - hash:
+      serializedVersion: 2
+      Hash: f08069ca59eae5901bd7fefcc241e8e8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: gameGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 63e010afb6795972d960e708ff913999
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: globals
+  - hash:
+      serializedVersion: 2
+      Hash: 8fd5b788a5d6e94970141784d7eff1ed
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: resetInstruments
+  - hash:
+      serializedVersion: 2
+      Hash: 48794dca12630b508c3eacd6a6cc1a72
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AudioController
+  - hash:
+      serializedVersion: 2
+      Hash: e769b586508491e2b351ff9e285110a9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: focusCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 32c19bc15c761ec1dd517dced9efe23d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: animateOctopus
+  - hash:
+      serializedVersion: 2
+      Hash: e820933191290a95b2331175f1ea0073
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: playerData
+  platform: 19
+  scenePathNames:
+  - Assets/splashScreen.unity
+  - Assets/Octoplay.unity
+  playerPath: C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay.exe

@@ -1,0 +1,521 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1743020302217112, "dur":20858, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1743020302237975, "dur":63, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1743020302238065, "dur":493, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1743020302238573, "dur":2325, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1743020302240899, "dur":334614, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1743020302575514, "dur":324, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1743020302575872, "dur":94, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1743020302576187, "dur":920, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1743020302238628, "dur":2278, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1743020302248910, "dur":600, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/il2cpp/build/deploy" }}
+,{ "pid":12345, "tid":1, "ts":1743020302249511, "dur":3418, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/il2cpp/libil2cpp" }}
+,{ "pid":12345, "tid":1, "ts":1743020302252929, "dur":71, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport" }}
+,{ "pid":12345, "tid":1, "ts":1743020302253001, "dur":757, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono" }}
+,{ "pid":12345, "tid":1, "ts":1743020302253805, "dur":130, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/Tools/BuildPipeline" }}
+,{ "pid":12345, "tid":1, "ts":1743020302253936, "dur":156, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Library/PlayerDataCache/Win642/Data" }}
+,{ "pid":12345, "tid":1, "ts":1743020302240912, "dur":13249, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1743020302254253, "dur":306, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1743020302254561, "dur":691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker C:/Users/V Manzo/Documents/Repos/Octoplay/Octoplay/Octoplay Unity/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1743020302255253, "dur":1489, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1743020302258975, "dur":42980, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1743020302258764, "dur":43192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1743020302301972, "dur":2216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1743020302304221, "dur":26703, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1743020302304190, "dur":26735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1743020302330949, "dur":1105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1743020302332113, "dur":56724, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1743020302332057, "dur":56782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1743020302388857, "dur":5169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1743020302394067, "dur":70671, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1743020302394028, "dur":70711, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1743020302464759, "dur":1461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1743020302466251, "dur":59117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1743020302466222, "dur":59148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1743020302525384, "dur":743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1743020302526129, "dur":49447, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1743020302238725, "dur":2213, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1743020302240944, "dur":4649, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1743020302245593, "dur":3314, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1743020302248907, "dur":5300, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1743020302254207, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1743020302254474, "dur":355, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1743020302254832, "dur":317, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1743020302255151, "dur":3586, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1743020302258782, "dur":74156, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1743020302258737, "dur":74202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1743020302332964, "dur":8487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1743020302341483, "dur":28848, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1743020302341453, "dur":28880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1743020302370347, "dur":4896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1743020302375311, "dur":98321, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1743020302375246, "dur":98390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1743020302473655, "dur":1337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1743020302474993, "dur":100642, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1743020302238713, "dur":2218, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1743020302240936, "dur":4329, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1743020302245266, "dur":3588, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1743020302248855, "dur":5326, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1743020302254183, "dur":402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1743020302254585, "dur":329, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1743020302254918, "dur":305, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1743020302255225, "dur":3522, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1743020302258838, "dur":58437, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1743020302258748, "dur":58529, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1743020302317291, "dur":2505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1743020302319831, "dur":39039, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1743020302319798, "dur":39073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1743020302358883, "dur":721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1743020302359640, "dur":28011, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1743020302359606, "dur":28046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1743020302387664, "dur":1894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1743020302389592, "dur":24302, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1743020302389560, "dur":24335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1743020302413909, "dur":2703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1743020302416640, "dur":85185, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1743020302416614, "dur":85213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1743020302501845, "dur":786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1743020302502633, "dur":72915, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1743020302238807, "dur":2233, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1743020302241046, "dur":5291, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1743020302246337, "dur":2790, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1743020302249127, "dur":5081, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1743020302254222, "dur":551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1743020302254773, "dur":313, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1743020302255089, "dur":3646, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1743020302258834, "dur":32778, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1743020302258736, "dur":32877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1743020302291627, "dur":2741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1743020302294406, "dur":22094, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1743020302294371, "dur":22131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1743020302316577, "dur":1157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1743020302317793, "dur":51353, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1743020302317736, "dur":51411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1743020302369165, "dur":943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1743020302370143, "dur":26351, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1743020302370110, "dur":26385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1743020302396532, "dur":5243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1743020302401813, "dur":35396, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1743020302401778, "dur":35433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1743020302437237, "dur":2581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1743020302439853, "dur":40313, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1743020302439821, "dur":40347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1743020302480207, "dur":1265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1743020302481474, "dur":94184, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1743020302238667, "dur":2247, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1743020302240921, "dur":4513, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1743020302245434, "dur":3448, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1743020302248883, "dur":5322, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1743020302254206, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1743020302254432, "dur":386, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1743020302254824, "dur":327, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1743020302255155, "dur":3577, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1743020302258808, "dur":29987, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1743020302258733, "dur":30064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1743020302289345, "dur":4229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1743020302293983, "dur":63487, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1743020302293576, "dur":63895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1743020302357497, "dur":1168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1743020302358700, "dur":26902, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1743020302358668, "dur":26936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1743020302385630, "dur":1735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1743020302387424, "dur":115826, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1743020302387372, "dur":115880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1743020302503268, "dur":850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1743020302504119, "dur":71546, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1743020302238688, "dur":2236, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1743020302240930, "dur":4337, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1743020302245267, "dur":3438, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1743020302248705, "dur":5496, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1743020302254211, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1743020302254433, "dur":361, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1743020302254800, "dur":328, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1743020302255133, "dur":3609, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1743020302259167, "dur":62879, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1743020302258743, "dur":63305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1743020302322068, "dur":2957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1743020302325058, "dur":88683, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1743020302325027, "dur":88716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1743020302413757, "dur":2715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1743020302416510, "dur":56067, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1743020302416474, "dur":56104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1743020302472612, "dur":1439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1743020302474052, "dur":101580, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1743020302238747, "dur":2223, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1743020302240983, "dur":5289, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1743020302246272, "dur":2850, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1743020302249122, "dur":5103, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1743020302254228, "dur":401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1743020302254630, "dur":327, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1743020302254963, "dur":293, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1743020302255258, "dur":3507, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1743020302259033, "dur":40598, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1743020302258766, "dur":40866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1743020302299646, "dur":8352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1743020302308030, "dur":96925, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1743020302308000, "dur":96957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1743020302408737, "dur":343, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1743020302404983, "dur":4109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1743020302409163, "dur":21931, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1743020302409096, "dur":21999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1743020302431114, "dur":741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1743020302431891, "dur":142896, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1743020302431856, "dur":142932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1743020302574799, "dur":643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1743020302238741, "dur":2204, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1743020302240951, "dur":4778, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1743020302245729, "dur":3252, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1743020302248981, "dur":5207, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1743020302254197, "dur":525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1743020302254722, "dur":316, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1743020302255042, "dur":245, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1743020302255294, "dur":3474, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1743020302259038, "dur":58328, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1743020302258769, "dur":58599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1743020302317390, "dur":2456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1743020302319880, "dur":69180, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1743020302319848, "dur":69213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1743020302389081, "dur":4368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1743020302393513, "dur":131368, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1743020302393453, "dur":131430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1743020302524890, "dur":58, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1743020302524952, "dur":1517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1743020302526470, "dur":49094, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1743020302238769, "dur":2229, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1743020302241011, "dur":5351, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1743020302246363, "dur":2718, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1743020302249081, "dur":5111, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1743020302254192, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1743020302254243, "dur":298, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1743020302254543, "dur":353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":9, "ts":1743020302254896, "dur":308, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1743020302255206, "dur":3546, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1743020302258872, "dur":73288, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Numerics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1743020302258752, "dur":73410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1743020302332185, "dur":3667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1743020302335892, "dur":41796, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1743020302335854, "dur":41836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1743020302377726, "dur":1310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1743020302379127, "dur":42085, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1743020302379039, "dur":42174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1743020302421221, "dur":55, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1743020302421281, "dur":7607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1743020302428927, "dur":36668, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1743020302428891, "dur":36706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1743020302465609, "dur":979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1743020302466616, "dur":106089, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1743020302466589, "dur":106118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1743020302572724, "dur":780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1743020302573506, "dur":2005, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1743020302238797, "dur":2229, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1743020302241039, "dur":5467, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1743020302246506, "dur":2616, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1743020302249122, "dur":5109, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1743020302254232, "dur":545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1743020302254778, "dur":316, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1743020302255096, "dur":3643, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1743020302258933, "dur":29222, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1743020302258740, "dur":29416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1743020302293274, "dur":53, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1743020302289489, "dur":3880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1743020302293411, "dur":24158, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1743020302293372, "dur":24198, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1743020302317598, "dur":5382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1743020302323026, "dur":39337, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1743020302322983, "dur":39381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1743020302362381, "dur":852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1743020302363270, "dur":44068, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1743020302363235, "dur":44104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1743020302408767, "dur":321, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1743020302407355, "dur":1742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1743020302409178, "dur":66652, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1743020302409099, "dur":66732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1743020302475844, "dur":926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1743020302476772, "dur":98883, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1743020302238831, "dur":2218, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1743020302241056, "dur":5443, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1743020302246499, "dur":2616, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1743020302249115, "dur":5118, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1743020302254233, "dur":376, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay.exe" }}
+,{ "pid":12345, "tid":11, "ts":1743020302254610, "dur":342, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1743020302254955, "dur":287, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1743020302255243, "dur":3531, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1743020302259089, "dur":29191, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1743020302258775, "dur":29506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1743020302296767, "dur":1332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1743020302298138, "dur":33737, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1743020302298101, "dur":33776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1743020302331924, "dur":2516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1743020302334476, "dur":29938, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1743020302334443, "dur":29973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1743020302364455, "dur":1302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1743020302365812, "dur":132359, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1743020302365760, "dur":132412, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1743020302498185, "dur":1144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1743020302499330, "dur":76224, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1743020302238856, "dur":2204, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1743020302241066, "dur":5496, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1743020302246562, "dur":217, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1743020302246779, "dur":7415, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1743020302254194, "dur":469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1743020302254664, "dur":326, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1743020302254993, "dur":264, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1743020302255260, "dur":3519, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1743020302259106, "dur":228315, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1743020302258780, "dur":228642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1743020302487435, "dur":2399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1743020302489836, "dur":85839, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1743020302238878, "dur":2193, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1743020302241085, "dur":5461, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1743020302246547, "dur":2590, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1743020302249137, "dur":5035, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1743020302254179, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":13, "ts":1743020302254366, "dur":368, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1743020302254737, "dur":315, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1743020302255056, "dur":233, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1743020302255296, "dur":3474, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1743020302259065, "dur":87634, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":13, "ts":1743020302258772, "dur":87929, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":13, "ts":1743020302346738, "dur":815, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":13, "ts":1743020302347586, "dur":25452, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1743020302347555, "dur":25485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1743020302373065, "dur":2271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1743020302375416, "dur":159234, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Xml.dll" }}
+,{ "pid":12345, "tid":13, "ts":1743020302375340, "dur":159311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":13, "ts":1743020302534662, "dur":1304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":13, "ts":1743020302535967, "dur":39551, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1743020302238890, "dur":2196, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1743020302241093, "dur":5480, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1743020302246573, "dur":7591, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1743020302254168, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":14, "ts":1743020302254239, "dur":351, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1743020302254600, "dur":344, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1743020302254947, "dur":287, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1743020302255235, "dur":3524, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1743020302259148, "dur":84511, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":14, "ts":1743020302258773, "dur":84887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":14, "ts":1743020302343680, "dur":858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":14, "ts":1743020302344575, "dur":100850, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1743020302344540, "dur":100886, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1743020302445440, "dur":1379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1743020302446853, "dur":25367, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1743020302446820, "dur":25401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1743020302472233, "dur":1617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1743020302473851, "dur":101654, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1743020302238906, "dur":2188, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1743020302241099, "dur":5463, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1743020302246563, "dur":7605, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1743020302254169, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":15, "ts":1743020302254249, "dur":297, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1743020302254549, "dur":363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":15, "ts":1743020302254912, "dur":307, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1743020302255221, "dur":3529, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1743020302258870, "dur":58003, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":15, "ts":1743020302258751, "dur":58124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":15, "ts":1743020302316898, "dur":2436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":15, "ts":1743020302319367, "dur":46060, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1743020302319336, "dur":46092, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1743020302365440, "dur":930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1743020302366430, "dur":59587, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1743020302366371, "dur":59648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1743020302426040, "dur":3217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1743020302429296, "dur":46139, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1743020302429259, "dur":46177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1743020302475449, "dur":957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1743020302476407, "dur":99236, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1743020302238927, "dur":2175, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1743020302241127, "dur":5486, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1743020302246614, "dur":7549, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1743020302254225, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1743020302254389, "dur":372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":16, "ts":1743020302254761, "dur":311, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1743020302255077, "dur":3663, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1743020302259186, "dur":35656, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1743020302258745, "dur":36098, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1743020302294859, "dur":767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1743020302295663, "dur":26575, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1743020302295628, "dur":26611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1743020302322253, "dur":2477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1743020302324762, "dur":62934, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1743020302324732, "dur":62966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1743020302387714, "dur":2896, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1743020302390701, "dur":136704, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Drawing.dll" }}
+,{ "pid":12345, "tid":16, "ts":1743020302390612, "dur":136794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":16, "ts":1743020302527419, "dur":851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":16, "ts":1743020302528271, "dur":47260, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1743020302238952, "dur":2165, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1743020302241129, "dur":5526, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1743020302246655, "dur":7515, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1743020302254172, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":17, "ts":1743020302254356, "dur":371, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1743020302254733, "dur":316, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1743020302255055, "dur":233, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1743020302255298, "dur":3474, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1743020302259193, "dur":35394, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AMDModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1743020302258773, "dur":35816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.AMDModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1743020302294605, "dur":1043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.AMDModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1743020302295677, "dur":67725, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1743020302295649, "dur":67754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1743020302363414, "dur":1574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1743020302365040, "dur":21823, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1743020302364990, "dur":21874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1743020302388264, "dur":95, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1743020302386935, "dur":1432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1743020302388498, "dur":32299, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1743020302388369, "dur":32430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1743020302420821, "dur":1654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1743020302422510, "dur":21899, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1743020302422477, "dur":21934, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1743020302444433, "dur":1111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1743020302445607, "dur":25607, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1743020302445547, "dur":25669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1743020302471240, "dur":976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1743020302472219, "dur":103289, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1743020302238975, "dur":2153, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1743020302241134, "dur":5486, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1743020302246620, "dur":7565, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1743020302254201, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":18, "ts":1743020302254493, "dur":364, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1743020302254865, "dur":319, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1743020302255186, "dur":3552, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1743020302259255, "dur":28731, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1743020302258739, "dur":29249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1743020302289400, "dur":4276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1743020302294079, "dur":24022, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1743020302293678, "dur":24424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1743020302318117, "dur":6155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1743020302324311, "dur":54274, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1743020302324275, "dur":54311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1743020302378611, "dur":1045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1743020302379691, "dur":33698, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.dll" }}
+,{ "pid":12345, "tid":18, "ts":1743020302379658, "dur":33733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":18, "ts":1743020302413440, "dur":2130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":18, "ts":1743020302415608, "dur":71972, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1743020302415573, "dur":72009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1743020302487602, "dur":1064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1743020302488667, "dur":87002, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1743020302239028, "dur":2108, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1743020302241140, "dur":5485, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1743020302246626, "dur":7553, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1743020302254181, "dur":502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":19, "ts":1743020302254684, "dur":312, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1743020302255000, "dur":265, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1743020302255267, "dur":3494, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1743020302259230, "dur":75710, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Net.Http.dll" }}
+,{ "pid":12345, "tid":19, "ts":1743020302258761, "dur":76181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":19, "ts":1743020302334958, "dur":4735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":19, "ts":1743020302339732, "dur":23662, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1743020302339696, "dur":23699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1743020302363407, "dur":2277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1743020302365731, "dur":28589, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":19, "ts":1743020302365686, "dur":28635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":19, "ts":1743020302394380, "dur":4194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":19, "ts":1743020302398618, "dur":59776, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Transactions.dll" }}
+,{ "pid":12345, "tid":19, "ts":1743020302398578, "dur":59818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":19, "ts":1743020302458422, "dur":947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":19, "ts":1743020302459409, "dur":23985, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1743020302459372, "dur":24024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1743020302483409, "dur":627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1743020302484037, "dur":91629, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1743020302239056, "dur":2087, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1743020302241148, "dur":5499, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1743020302246647, "dur":7567, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1743020302254216, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":20, "ts":1743020302254540, "dur":330, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1743020302254873, "dur":319, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1743020302255195, "dur":3556, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1743020302259224, "dur":93340, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":20, "ts":1743020302258753, "dur":93813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":20, "ts":1743020302352635, "dur":832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":20, "ts":1743020302353511, "dur":32235, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1743020302353470, "dur":32277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1743020302385763, "dur":1861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1743020302387731, "dur":57261, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1743020302387627, "dur":57366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1743020302444998, "dur":60, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1743020302445061, "dur":7596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1743020302452735, "dur":44341, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1743020302452661, "dur":44416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1743020302497093, "dur":758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1743020302497852, "dur":77761, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1743020302239077, "dur":2073, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1743020302241153, "dur":5489, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1743020302246643, "dur":7519, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1743020302254254, "dur":462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":21, "ts":1743020302254717, "dur":300, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1743020302255020, "dur":283, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1743020302255307, "dur":3438, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1743020302259192, "dur":29050, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1743020302258747, "dur":29497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1743020302289490, "dur":3883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1743020302293421, "dur":42681, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1743020302293374, "dur":42729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1743020302336117, "dur":3953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1743020302340105, "dur":25901, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1743020302340072, "dur":25935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1743020302366022, "dur":901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1743020302366958, "dur":38217, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1743020302366925, "dur":38252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1743020302405196, "dur":1977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1743020302407225, "dur":37204, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1743020302407178, "dur":37253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1743020302444442, "dur":964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1743020302445454, "dur":34873, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":21, "ts":1743020302445408, "dur":34921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":21, "ts":1743020302480353, "dur":1214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":21, "ts":1743020302481569, "dur":94079, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1743020302239102, "dur":2054, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1743020302241160, "dur":5543, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1743020302246703, "dur":7492, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1743020302254196, "dur":481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":22, "ts":1743020302254678, "dur":309, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1743020302254992, "dur":267, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1743020302255262, "dur":3500, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1743020302259203, "dur":149498, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Security.dll" }}
+,{ "pid":12345, "tid":22, "ts":1743020302258763, "dur":149940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":22, "ts":1743020302408726, "dur":866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":22, "ts":1743020302409630, "dur":33904, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1743020302409593, "dur":33944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1743020302443546, "dur":72, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1743020302443623, "dur":2897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1743020302446562, "dur":26275, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1743020302446523, "dur":26316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1743020302472859, "dur":1504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1743020302474365, "dur":101259, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1743020302239121, "dur":2063, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1743020302241196, "dur":5541, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1743020302246737, "dur":7466, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1743020302254205, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":23, "ts":1743020302254551, "dur":349, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1743020302254905, "dur":307, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1743020302255214, "dur":3519, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1743020302258973, "dur":123867, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":23, "ts":1743020302258735, "dur":124107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":23, "ts":1743020302382896, "dur":1583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":23, "ts":1743020302384525, "dur":104533, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Core.dll" }}
+,{ "pid":12345, "tid":23, "ts":1743020302384482, "dur":104577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":23, "ts":1743020302489071, "dur":1073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":23, "ts":1743020302490145, "dur":85449, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1743020302239180, "dur":2017, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1743020302241197, "dur":5530, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1743020302246728, "dur":7455, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1743020302254183, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":24, "ts":1743020302254238, "dur":259, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1743020302254502, "dur":361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/D3D12/D3D12Core.dll" }}
+,{ "pid":12345, "tid":24, "ts":1743020302254863, "dur":305, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1743020302255170, "dur":3576, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1743020302258888, "dur":29527, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1743020302258747, "dur":29670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1743020302300231, "dur":686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1743020302300954, "dur":20574, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1743020302300919, "dur":20611, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1743020302321549, "dur":3081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1743020302324676, "dur":49857, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1743020302324633, "dur":49902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1743020302374570, "dur":1265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1743020302375867, "dur":136014, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Data.dll" }}
+,{ "pid":12345, "tid":24, "ts":1743020302375837, "dur":136046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":24, "ts":1743020302511903, "dur":1333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/V Manzo/Desktop/OctoplayWin/Octoplay_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":24, "ts":1743020302513238, "dur":62304, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1743020302578447, "dur":666, "ph":"X", "name": "ProfilerWriteOutput" }
+,
