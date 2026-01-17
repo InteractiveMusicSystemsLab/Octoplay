@@ -1,6 +1,8 @@
 It's like Simon, but with diatonic pitches...and an octopus...
-https://clearbluemedia.com/octoplay/
 
+Use the number keys on your computer keyboard to match the same pattern on the same beat that the octopus plays!
+
+# Setup
 Developed with Unity. To demo, open the scene marked "Octoplay".
 
 ## Mac Build + Sign
