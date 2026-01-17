@@ -71,11 +71,11 @@ public class splashScreen : MonoBehaviour
 	{
 		if(currentSlide==0)
 		{
-			GUI.DrawTexture(new Rect(Screen.width/2-199, Screen.height/2-159, 397, 317), mainLogo); 
+			GUI.DrawTexture(new Rect(Screen.width/2-219, Screen.height/2-175, 437, 349), mainLogo); 
 		}
 		else
 		{
-			GUI.DrawTexture(new Rect(Screen.width/2-193, Screen.height/2-55, 386, 111), secondLogo); 
+			GUI.DrawTexture(new Rect(Screen.width/2-386, Screen.height/2-110, 772, 222), secondLogo); 
 		}
 	}
 }

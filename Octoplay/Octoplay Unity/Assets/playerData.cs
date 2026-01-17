@@ -5,12 +5,12 @@ public class playerData : MonoBehaviour
 {
 	public static int[] playerHighScores = new int[10];
 	public static string[] globalHighScores = new string[10];
-	public static string playerName = "Your Name";
+	public static string playerName = "AAA";
 	private static string passkey="cw7szOco6EnkqhQNhuu67G6sHHc0nHXp1SFoxICraNCqVg10ylWvSQNnnNeyl1Mc";
 	void Start()
 	{
 		playerHighScores = PlayerPrefsX.GetIntArray ("playerHighScores", 0, 10);
-		playerName = PlayerPrefs.GetString ("playerName", "Your Name");
+		playerName = PlayerPrefs.GetString ("playerName", "AAA");
 		UpdateLocalHighScores();
 		gameGUI.refreshMenu();
 		StartCoroutine(getScore());
@@ -20,14 +20,21 @@ public class playerData : MonoBehaviour
 	public static void addHighScore(int round, int score)
 	{
 		round = round - 1;
+		bool isNewHighScore = false;
 		if(score>playerHighScores[round])
 		{
 			playerHighScores[round]=score;
+			isNewHighScore = true;
 		}
 		PlayerPrefsX.SetIntArray ("playerHighScores", playerHighScores);
 		UpdateLocalHighScores();
 		gameGUI.refreshMenu ();
+		if (isNewHighScore)
+		{
+			gameGUI.PromptForInitialsEntry();
+		}
 	}
+
 
 	public static IEnumerator sendScore(int round, int score)
 	{

@@ -1,0 +1,24 @@
+{
+  "title": "Octoplay",
+  "background": "dmg-background.png",
+  "window": {
+    "size": {
+      "width": 600,
+      "height": 400
+    }
+  },
+  "contents": [
+    {
+      "x": 140,
+      "y": 220,
+      "type": "file",
+      "path": "PLACEHOLDER_APP_PATH"
+    },
+    {
+      "x": 430,
+      "y": 220,
+      "type": "link",
+      "path": "/Applications"
+    }
+  ]
+}

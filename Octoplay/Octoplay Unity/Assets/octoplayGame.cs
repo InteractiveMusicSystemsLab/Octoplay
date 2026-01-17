@@ -2,11 +2,17 @@
 using System.Collections;
 public class octoplayGame : MonoBehaviour 
 {
+	public const int unlockScoreThreshold = 10;
 	public static int currentRound = 1;
 	public static int currentScore = 0;
 	public static bool gameInProgress = false;
 	public static bool octopusTurn = true;
 	public static string awardText = "";
+	public static bool roundPromptVisible = false;
+	public static string roundPromptText = "";
+	public static float newLevelPromptUntil = 0.0f;
+	public static string newLevelPromptText = "New Level Unlocked!";
+	private static bool newLevelPromptShown = false;
 	private int currentLength = 0;
 	private string roundPattern;
 	private string userPattern;
@@ -212,7 +218,7 @@ public class octoplayGame : MonoBehaviour
 	}
 	void checkUnlock(int roundNumber, int correctNumber)
 	{
-		if (playerData.playerHighScores[(roundNumber-1)]<15 && correctNumber >= 15 && roundNumber<10) 
+		if (playerData.playerHighScores[(roundNumber-1)]<unlockScoreThreshold && correctNumber >= unlockScoreThreshold && roundNumber<10) 
 		{
 			showAward(0);
 		} 
@@ -231,6 +237,7 @@ public class octoplayGame : MonoBehaviour
 		case 0:
 			checkAward=2;
 			awardText="You've unlocked level " + (currentRound+1) + "!";
+			newLevelPromptUntil = Time.time + 3.0f;
 			//show 2D image
 			break;
 
@@ -242,6 +249,9 @@ public class octoplayGame : MonoBehaviour
 	}
 	public IEnumerator runGame()
 	{
+		roundPromptVisible = false;
+		roundPromptText = "";
+		newLevelPromptShown = false;
 		setClickTrack ();
 		bubbles.Stop ();
 		readyForNewGame = false;
@@ -339,6 +349,11 @@ public class octoplayGame : MonoBehaviour
 			}
 			if(!gameInProgress)
 				break;
+			if (ShouldShowRoundPrompt())
+			{
+				roundPromptText = "Wait";
+				roundPromptVisible = true;
+			}
 			int x=0;
 			generateNewNote();
 			notes=roundPattern.Split(',');
@@ -360,6 +375,11 @@ public class octoplayGame : MonoBehaviour
 				nextYieldTime+=intervalWait;
 				StartCoroutine(KeyInstruments.performLine(currentNote, 600));
 				StartCoroutine(showNote(currentNote));
+				if (ShouldShowRoundPrompt() && notes.Length - 1 == 4 && i == notes.Length - 2)
+				{
+					float leadSeconds = Mathf.Min(0.6f, (intervalWait + 0.2500f) * 0.9f);
+					StartCoroutine(ShowGoPrompt(nextYieldTime, leadSeconds));
+				}
 				while(AudioSettings.dspTime<nextYieldTime)
 				{
 					yield return null;
@@ -367,6 +387,10 @@ public class octoplayGame : MonoBehaviour
 				x++;
 			}
 			nextYieldTime+=((intervalWait+0.2500f)*(4-x));
+			if (ShouldShowRoundPrompt() && notes.Length - 1 != 4)
+			{
+				StartCoroutine(ShowGoPrompt(nextYieldTime, 0.35f));
+			}
 			if(!gameInProgress)
 				break;
 			while(AudioSettings.dspTime<nextYieldTime)
@@ -383,6 +407,11 @@ public class octoplayGame : MonoBehaviour
 			while(octopusTurn && gameInProgress)
 			{
 				yield return null;
+			}
+			if (ShouldShowRoundPrompt())
+			{
+				roundPromptVisible = false;
+				roundPromptText = "";
 			}
 			notes=roundPattern.Split(',');
 			currentLength=0;
@@ -433,7 +462,46 @@ public class octoplayGame : MonoBehaviour
 			}
 			octopusTurn = true;
 			currentScore++;
+			TriggerNewLevelPrompt();
 		}
+	}
+
+	IEnumerator ShowGoPrompt(double downbeatTime, float leadSeconds)
+	{
+		while (AudioSettings.dspTime < (downbeatTime - leadSeconds) && gameInProgress)
+		{
+			yield return null;
+		}
+		if(!gameInProgress)
+			yield break;
+		roundPromptText = "Go";
+		roundPromptVisible = true;
+		while (AudioSettings.dspTime < downbeatTime && gameInProgress)
+		{
+			yield return null;
+		}
+		roundPromptVisible = false;
+		roundPromptText = "";
+	}
+
+	private bool ShouldShowRoundPrompt()
+	{
+		return currentRound == 1 && currentScore <= 10;
+	}
+
+	private void TriggerNewLevelPrompt()
+	{
+		if (newLevelPromptShown)
+			return;
+		if (currentRound >= 10)
+			return;
+		if (playerData.playerHighScores[(currentRound - 1)] >= unlockScoreThreshold)
+			return;
+		if (currentScore < unlockScoreThreshold)
+			return;
+
+		newLevelPromptShown = true;
+		newLevelPromptUntil = Time.time + 3.0f;
 	}
 	void generateNewNote()
 	{

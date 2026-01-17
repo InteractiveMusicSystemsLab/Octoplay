@@ -8,7 +8,6 @@ public class gameGUI : MonoBehaviour
 	public Texture2D[] levelTexture = new Texture2D[10];
 	public Texture2D lockedTexture;
 	public Texture2D returnTexture;
-	public Texture2D settingsTexture;
 	public Texture2D okayTexture;
 	public Texture2D titleTexture;
 	public Texture2D awardTexture;
@@ -23,6 +22,9 @@ public class gameGUI : MonoBehaviour
 	GameObject octopus;
 	string playerEntry;
 	private TouchScreenKeyboard userKeyboard;
+	private GUIStyle roundPromptStyle;
+	private GUIStyle newLevelPromptStyle;
+	private bool initializedInitialsEntry = false;
 	// Use this for initialization
 	void Start () 
 	{
@@ -81,25 +83,33 @@ public class gameGUI : MonoBehaviour
 					GUI.DrawTexture(new Rect((Screen.width/2-425)+(Mathf.Floor(i%5)*150+(Mathf.Floor(i%5)*25)), (Screen.height-350)+(Mathf.Floor(i/5)*150+(Mathf.Floor(i/5)*25)), 150, 150), lockedTexture);
 				}
 			}
-			if(GUI.Button(new Rect(Screen.width-125, Screen.height-125, 100, 102), settingsTexture))
-			{
-				showMenu=false;
-				showSettings=true;
-				playerEntry = playerData.playerName;
-			}
-
 		}
 		else if(showSettings)
 		{
-			GUI.Label(new Rect(Screen.width/2-300, Screen.height/2-100, 600, 100), "Please Enter Your Name");
+			if (!initializedInitialsEntry)
+			{
+				playerEntry = playerData.playerName;
+				initializedInitialsEntry = true;
+			}
+			GUI.Label(new Rect(Screen.width/2-300, Screen.height/2-100, 600, 100), "Enter Your Initials");
 			GUI.skin=awardSkin;
 			playerEntry=GUI.TextField(new Rect(Screen.width/2-200, Screen.height/2, 400, 50), playerEntry);
 			if(GUI.Button(new Rect(Screen.width/2-128, Screen.height/2+100, 256, 100), okayTexture) || Input.GetKey(KeyCode.Return) || GUI.Button(new Rect(25, Screen.height-123, 100, 102), returnTexture))
 			{
-				playerData.playerName=Regex.Replace(playerEntry, @"[^a-zA-Z ]", "");
+				string initials = Regex.Replace(playerEntry, @"[^a-zA-Z]", "").ToUpper();
+				if (initials.Length > 3)
+				{
+					initials = initials.Substring(0, 3);
+				}
+				if (initials.Length == 0)
+				{
+					initials = "AAA";
+				}
+				playerData.playerName = initials;
 				PlayerPrefs.SetString("playerName", playerData.playerName);
 				showMenu=true;
 				showSettings=false;
+				initializedInitialsEntry = false;
 			}
 		}
 		else if(octoplayGame.readyForNewGame)
@@ -124,8 +134,31 @@ public class gameGUI : MonoBehaviour
 		{
 			GUI.skin = octoSkin2;
 			GUI.Label(new Rect(25, 25, 400, 50), "Level " + octoplayGame.currentRound + " Highscore: " + playerData.playerHighScores[(octoplayGame.currentRound-1)]);
-			GUI.Label(new Rect(25, Screen.height-75, 1000, 100), "Local Highscore\n" + playerData.globalHighScores[(octoplayGame.currentRound-1)]);
+			GUI.Label(new Rect(25, Screen.height-75, 1000, 100), "High Score\n" + playerData.playerName + " " + playerData.playerHighScores[(octoplayGame.currentRound-1)]);
 			GUI.Label(new Rect(Screen.width-200, 25, 400, 50), "Score: " + octoplayGame.currentScore);
+			if (Time.time < octoplayGame.newLevelPromptUntil)
+			{
+				if (newLevelPromptStyle == null)
+				{
+					newLevelPromptStyle = new GUIStyle(GUI.skin.box);
+					newLevelPromptStyle.alignment = TextAnchor.MiddleCenter;
+					newLevelPromptStyle.fontSize = 24;
+					newLevelPromptStyle.fontStyle = FontStyle.Bold;
+				}
+				GUI.Box(new Rect(Screen.width-420, 70, 360, 60), octoplayGame.newLevelPromptText, newLevelPromptStyle);
+			}
+			if (octoplayGame.roundPromptVisible)
+			{
+				if (roundPromptStyle == null)
+				{
+					roundPromptStyle = new GUIStyle(GUI.skin.label);
+					roundPromptStyle.alignment = TextAnchor.MiddleCenter;
+					roundPromptStyle.fontSize = 64;
+					roundPromptStyle.fontStyle = FontStyle.Bold;
+				}
+				roundPromptStyle.fontSize = octoplayGame.roundPromptText == "Go" ? 80 : 64;
+				GUI.Label(new Rect(0, Screen.height / 2 - 60, Screen.width, 120), octoplayGame.roundPromptText, roundPromptStyle);
+			}
 			for(int x=1; x<=octoplayGame.meterCount; x++)
 			{
 				GUI.DrawTexture(new Rect(Screen.width-150, 500-(75*x), 64, 64), bubbleTexture[0]);
@@ -156,10 +189,16 @@ public class gameGUI : MonoBehaviour
 				levelStatus[i]=2;
 			}
 
-			if(playerData.playerHighScores[i]>=15 && i<9)
+			if(playerData.playerHighScores[i]>=octoplayGame.unlockScoreThreshold && i<9)
 			{
 				levelStatus[i+1]=1;
 			}
 		}
+	}
+
+	public static void PromptForInitialsEntry()
+	{
+		showMenu = false;
+		showSettings = true;
 	}
 }

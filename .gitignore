@@ -20,3 +20,8 @@ UserSettings/
 
 # Crash reports
 sysinfo.txt
+.DS_Store
+/_builds
+Octoplay/Octoplay Unity/.DS_Store
+Octoplay/.DS_Store
+.DS_Store
