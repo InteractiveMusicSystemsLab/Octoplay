@@ -26,7 +26,7 @@ Developed with Unity. To demo, open the scene marked "Octoplay".
 
 ## Credits
 Original authors:
-- Dan Manzo (danmanzo) and V.J. Manzo (@vjmanzo)
+- Dan Manzo (@danmanzo) and V.J. Manzo (@vjmanzo)
 
 ## License
 Released under the AGPLv3 license.
