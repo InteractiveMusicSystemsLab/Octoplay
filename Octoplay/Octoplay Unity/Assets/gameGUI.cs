@@ -124,7 +124,7 @@ public class gameGUI : MonoBehaviour
 		{
 			GUI.skin = octoSkin2;
 			GUI.Label(new Rect(25, 25, 400, 50), "Level " + octoplayGame.currentRound + " Highscore: " + playerData.playerHighScores[(octoplayGame.currentRound-1)]);
-			GUI.Label(new Rect(25, Screen.height-75, 1000, 100), "Global Highscore\n" + playerData.globalHighScores[(octoplayGame.currentRound-1)]);
+			GUI.Label(new Rect(25, Screen.height-75, 1000, 100), "Local Highscore\n" + playerData.globalHighScores[(octoplayGame.currentRound-1)]);
 			GUI.Label(new Rect(Screen.width-200, 25, 400, 50), "Score: " + octoplayGame.currentScore);
 			for(int x=1; x<=octoplayGame.meterCount; x++)
 			{

@@ -1,2 +1,22 @@
 
 .DS_Store
+
+# Unity-generated folders
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+
+# IDE/editor files
+.vs/
+.idea/
+*.csproj
+*.sln
+*.user
+*.unityproj
+
+# Crash reports
+sysinfo.txt

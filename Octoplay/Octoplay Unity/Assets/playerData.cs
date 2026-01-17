@@ -11,6 +11,7 @@ public class playerData : MonoBehaviour
 	{
 		playerHighScores = PlayerPrefsX.GetIntArray ("playerHighScores", 0, 10);
 		playerName = PlayerPrefs.GetString ("playerName", "Your Name");
+		UpdateLocalHighScores();
 		gameGUI.refreshMenu();
 		StartCoroutine(getScore());
 	}
@@ -24,49 +25,28 @@ public class playerData : MonoBehaviour
 			playerHighScores[round]=score;
 		}
 		PlayerPrefsX.SetIntArray ("playerHighScores", playerHighScores);
+		UpdateLocalHighScores();
 		gameGUI.refreshMenu ();
 	}
 
 	public static IEnumerator sendScore(int round, int score)
 	{
-		string hash = Md5Sum(score+passkey+round+playerData.playerName);
-		string currentURL = "http://www.knockoutmedia.com/octoplay/send.php?hash="+hash+"&score="+score+"&round="+round+"&username="+WWW.EscapeURL(playerData.playerName);
-		
-		WWW sendPost = new WWW(currentURL);
-		yield return sendPost;
-		
-		if (sendPost.error != null)
-		{
-
-		}
-		else
-		{
-		}
+		yield break;
 	}
 
 	public static IEnumerator getScore()
 	{
-		string hash = Md5Sum(passkey+playerData.playerName);
-		string currentURL = "http://www.knockoutmedia.com/octoplay/get.php?hash="+hash+"&username="+WWW.EscapeURL(playerData.playerName);
-
-		WWW getPost = new WWW(currentURL);
-		yield return getPost;
-		
-		if (getPost.error != null)
-		{
-
-		}
-		else
-		{
-			string[] netScores = getPost.text.ToString().Split(',');
-			for(int i=0; i<netScores.Length-1; i++)
-			{
-				playerData.globalHighScores[i]=netScores[i];
-			}
-		}
+		UpdateLocalHighScores();
+		yield break;
 	}
 	
-	
+	private static void UpdateLocalHighScores()
+	{
+		for (int i = 0; i < globalHighScores.Length && i < playerHighScores.Length; i++)
+		{
+			globalHighScores[i] = playerHighScores[i].ToString();
+		}
+	}
 	
 	public static string Md5Sum(string strToEncrypt)
 	{
