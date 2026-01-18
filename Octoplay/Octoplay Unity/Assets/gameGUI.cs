@@ -24,6 +24,7 @@ public class gameGUI : MonoBehaviour
 	private TouchScreenKeyboard userKeyboard;
 	private GUIStyle roundPromptStyle;
 	private GUIStyle newLevelPromptStyle;
+	private GUIStyle firstLevelLoadingStyle;
 	private bool initializedInitialsEntry = false;
 	// Use this for initialization
 	void Start () 
@@ -133,6 +134,17 @@ public class gameGUI : MonoBehaviour
 		if(octoplayGame.gameInProgress)
 		{
 			GUI.skin = octoSkin2;
+			if (octoplayGame.showFirstLevelLoadingPrompt)
+			{
+				if (firstLevelLoadingStyle == null)
+				{
+					firstLevelLoadingStyle = new GUIStyle(GUI.skin.label);
+					firstLevelLoadingStyle.alignment = TextAnchor.MiddleCenter;
+					firstLevelLoadingStyle.fontSize = 80;
+					firstLevelLoadingStyle.wordWrap = true;
+				}
+				GUI.Label(new Rect(0, Screen.height - 110, Screen.width, 80), "Use number keys to mimic the octopus' pattern on the beat", firstLevelLoadingStyle);
+			}
 			GUI.Label(new Rect(25, 25, 400, 50), "Level " + octoplayGame.currentRound + " Highscore: " + playerData.playerHighScores[(octoplayGame.currentRound-1)]);
 			GUI.Label(new Rect(25, Screen.height-75, 1000, 100), "High Score\n" + playerData.playerName + " " + playerData.playerHighScores[(octoplayGame.currentRound-1)]);
 			GUI.Label(new Rect(Screen.width-200, 25, 400, 50), "Score: " + octoplayGame.currentScore);

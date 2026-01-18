@@ -12,6 +12,7 @@ public class octoplayGame : MonoBehaviour
 	public static string roundPromptText = "";
 	public static float newLevelPromptUntil = 0.0f;
 	public static string newLevelPromptText = "New Level Unlocked!";
+	public static bool showFirstLevelLoadingPrompt = false;
 	private static bool newLevelPromptShown = false;
 	private int currentLength = 0;
 	private string roundPattern;
@@ -252,6 +253,7 @@ public class octoplayGame : MonoBehaviour
 		roundPromptVisible = false;
 		roundPromptText = "";
 		newLevelPromptShown = false;
+		showFirstLevelLoadingPrompt = currentRound == 1;
 		setClickTrack ();
 		bubbles.Stop ();
 		readyForNewGame = false;
@@ -265,6 +267,7 @@ public class octoplayGame : MonoBehaviour
 			yield return null;
 		}
 		octopusTurn = true;
+		showFirstLevelLoadingPrompt = false;
 		StartCoroutine (runMeterCount());
 		StartCoroutine (runClickTrack ());
 		StartCoroutine (runOctopus());

@@ -27,6 +27,10 @@ if [ ! -d "$APP_BUNDLE" ]; then
   exit 1
 fi
 
+echo "🧹 Removing legacy CodeResources and old signatures..."
+rm -f "$APP_BUNDLE/Contents/CodeResources"
+rm -rf "$APP_BUNDLE/Contents/_CodeSignature"
+
 VERSION="unknown"
 if [ -f "$APP_BUNDLE/Contents/Info.plist" ]; then
   VERSION=$(/usr/libexec/PlistBuddy -c "Print :CFBundleShortVersionString" "$APP_BUNDLE/Contents/Info.plist" 2>/dev/null || echo "unknown")
@@ -67,6 +71,12 @@ done < <(
 
 echo "🔏 Signing main app bundle..."
 codesign "${SIGN_ARGS[@]}" --deep "$APP_BUNDLE"
+
+if [ -f "$APP_BUNDLE/Contents/CodeResources" ]; then
+  echo "❌ Unexpected legacy CodeResources detected after signing."
+  echo "Remove $APP_BUNDLE/Contents/CodeResources and re-sign."
+  exit 1
+fi
 
 echo "🔍 Verifying codesign..."
 codesign --verify --deep --strict --verbose=2 "$APP_BUNDLE"

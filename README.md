@@ -24,6 +24,7 @@ Developed with Unity. To demo, open the scene marked "Octoplay".
 
 - The scripts expect the app bundle at `_builds/Octoplay.app` and will place the signed DMG in `_builds/`.
 - If you change the app name, set `APP_NAME` and/or `APP_BUNDLE` when running the script.
+- `codesign-octoplay.sh` uses `entitlements.plist` to allow Unity's Mono runtime to JIT; keep that file alongside the scripts.
 
 
 ## Credits
